@@ -1,0 +1,65 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.swp
+*.swo
+
+# Test binary, build with `go test -c`
+*.test
+
+# Coverage profiling
+*.prof
+coverage.out
+coverage.html
+
+# Dependency directories (if any)
+vendor/
+
+# Build artifacts
+opencode-ssh-mcp
+opencode-ssh-mcp_*
+dist/
+
+# Environment specific
+.env
+.envrc
+.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+log/
+
+# Temporary files
+tmp/
+temp/
+.DS_Store
+
+# Go workspace (if using workspace mode)
+go.work
+go.work.sum
+
+# Configuration files (non-default)
+config.local.*
+
+# Artifacts created during testing
+test-results/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# SSH related (excluding config examples)
+.ssh/
+!.ssh/config.example

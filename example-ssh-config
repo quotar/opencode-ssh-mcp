@@ -1,0 +1,11 @@
+Host example-server
+    HostName 203.0.113.10
+    Port 22
+    User myuser
+    IdentityFile ~/.ssh/id_rsa
+
+Host test-server
+    HostName 203.0.113.11
+    Port 22
+    User myuser
+    IdentityFile ~/.ssh/id_rsa

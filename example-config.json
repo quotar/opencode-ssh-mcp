@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ssh-manager": {
+      "type": "local",
+      "command": "opencode-ssh-mcp",
+      "args": []
+    }
+  }
+}
